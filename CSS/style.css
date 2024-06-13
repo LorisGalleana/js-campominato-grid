@@ -26,3 +26,6 @@
 .clicked {
     background-color: rgb(100, 230, 230);
 }
+.new-game {
+    font-size: 36px;
+}
