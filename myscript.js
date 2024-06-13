@@ -18,6 +18,8 @@ for (let i = 1; i <= 100; i++) {
     const createSquare = createElementWithClass("div", "square");
     createSquare.value = i;
     appendElement(grid, createSquare)
+    const square = document.querySelector(".square");
+    
 
 
     //cliccare sulla cella ne cambia il colore in azzurro e stampa un messaggio in console con il numero della cella cliccata
