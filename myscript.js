@@ -18,7 +18,7 @@ for (let i = 1; i <= 100; i++) {
     const createSquare = createElementWithClass("div", "square");
     createSquare.value = i;
     appendElement(grid, createSquare)
-    const square = document.querySelector(".square");
+    
     
 
 
